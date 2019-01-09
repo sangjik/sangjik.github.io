@@ -13,6 +13,7 @@ I'm a big fan of clean code and scrum.
 currently work as Software engineer and Scrum master in Rakuten, Tokyo.
 
 I will write what I studied, mainly about Data structure, algorithm and Java.
+Feel free to contact me via [LinkedIn](https://www.linkedin.com/in/sangjik-lee/)
 
 대학에서 마케팅을 전공하고, 일본에서 개발자로 일 하고 있습니다.  
 부족한 기본기를 다지기 위해 기술 블로그를 시작했습니다.  
