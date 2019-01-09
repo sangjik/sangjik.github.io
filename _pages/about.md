@@ -1,15 +1,19 @@
 ---
 layout: post
-title: "About"
-author: "Chester"
+title: "About me"
+author: "JayLee"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+Making high-value products is my goal.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+As I majored in Marketing in university, I always think about why before I start coding. Also I'm enjoy to improve specification and considering usability.
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+I'm a big fan of clean code and scrum.
+currently work as Software engineer and Scrum master in Rakuten, Tokyo.
 
-Thanks for reading!
+I will write what I studied, mainly about Data structure, algorithm and Java.
+
+대학에서 마케팅을 전공하고, 일본에서 개발자로 일 하고 있습니다.  
+부족한 기본기를 다지기 위해 기술 블로그를 시작했습니다.  
+해당 블로그의 글은 그 날 기분에 따라 영어/일본어/한국어 중 하나를 사용하여 적을 예정입니다.
