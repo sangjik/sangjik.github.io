@@ -14,27 +14,27 @@ To achieve this goal, I will update my study plan regularly
 ## Pick One Language for the Interview
 I picked Java for my study. Because I like strict programming language, and I think it will be easy to study Data structure or Design Patterns.
 
-## Table of Contents:books:
+## Table of Contents
 * Data Structure
- * Arrays
- * Linked Lists
- * Stack
- * Queue
- * Hash table
- * Trees
+  * Arrays
+  * Linked Lists
+  * Stack
+  * Queue
+  * Hash table
+  * Trees
 * More Knowledge
- * Binary search
- * Bitwise operations
+  * Binary search
+  * Bitwise operations
 * Sorting
- * selection
- * insertion
- * heapsort
- * quicksort
- * merge sort
+  * selection
+  * insertion
+  * heapsort
+  * quicksort
+  * merge sort
 * Algorithm
 * Even More knowledge
- * Design Patterns
- * Unicode
+  * Design Patterns
+  * Unicode
 
  ---
 
