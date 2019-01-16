@@ -13,7 +13,7 @@ Below is what I learned from following lecture
 
 ## What's Special About Arrays
 constant-time access  
-: array_addr + elem_size x (i - first_index)
+-> array_addr + elem_size x (i - first_index)
 
 ## Two way of arrange array
 Q) Assume you have a three-dimensional array laid out in column-major order with the first element at indices (1, 1, 1). What are the indices of the next element in memory?  
