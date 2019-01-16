@@ -35,8 +35,10 @@ I picked Java for my study. Because I like strict programming language, and I th
 * Even More knowledge
   * Design Patterns
   * Unicode
+  * [Big O][cheatsheet]
 
  ---
 
 [cid]: https://github.com/jwasham/coding-interview-university
 [laptop]:https://www.calebcurry.com/wp-content/uploads/2018/11/work-731198_1920.jpg
+[cheatsheet]: http://bigocheatsheet.com/
