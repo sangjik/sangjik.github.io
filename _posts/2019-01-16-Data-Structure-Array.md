@@ -21,11 +21,11 @@ A) (2,1,1)
 -> In column-major ordering, the first index changes most rapidly
 
 ## Times for Common operations
-| | Add | Remove |
-| ------------ | ------------ | ------------ |
-|Beginning | O(n) | O(n)|
-|End | O(1) | O(1)|
-|Middle | O(n) | O(n)|
+|           | Add  | Remove |
+|-----------|------|--------|
+| Beginning | O(n) | O(n)   |
+| End       | O(1) | O(1)   |
+| Middle    | O(n) | O(n)   |
 
 ## Summary
 - Constant time access to any elements
