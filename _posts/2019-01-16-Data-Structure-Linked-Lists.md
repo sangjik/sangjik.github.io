@@ -87,7 +87,8 @@ If you handle first element, Linked List is better than array, because in case o
 - List elements need not be contiguous  
 Separated allocated locations of memory
 - With Doubly Linked List, constatnt time to insert between nodes or remove a node
-# Array in Java
+
+# Linked List in Java
 
 # Practice
 
