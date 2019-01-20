@@ -24,10 +24,6 @@ Below is what I learned from following lecture
   -> because we don't know position of last element, we should access from first element to last one  
   -> O(n)  
   2. Add element and change pointer of 'last-1' element  
-- PushBack(Key) *with tail*
-  1. Add element to last and change current tail's pointer
-  2. Update tail to last one  
-  -> O(1)
 - **PopBack** *with tail*  
   It will takes time although we have tail. because after removing last element and change tail. we don't have any pointer. so we should access from first element to last one.  
   -> O(n)
@@ -53,9 +49,44 @@ else:
     node.prev <- tail
     tail <- node
 ```
-  
-## Summary
+- AddBefore(node, key) *with tail*
+  -> O(1)
+```
+node2 <- new node
+node2.key <- key
+node2.next <- node
+node2.prev <- node.prev
 
+node.prev <- node2
+if node2.prev != nil:
+    node2.prev.next <- node2
+if head = node:
+    head <- node2
+```
+## Single Linked List vs Double Linked List
+|                      | no tail | no tail | with tail |
+|----------------------|---------|---------|-----------|
+|                      | Single  | Double  |           |
+| PushFront(Key)       | O(1)    | -       |           |
+| TopFront()           | O(1)    | -       |           |
+| PopFront()           | O(1)    | -       |           |
+| PushBack(Key)        | O(n)    | -       | O(1)      |
+| TopBack()            | O(n)    | -       | O(1)      |
+| PopBack()            | O(n)    | O(1)    |           |
+| Find(Key)            | O(n)    | -       |           |
+| Erase(Key)           | O(n)    | -       |           |
+| Empty()              | O(1)    | -       |           |
+| AddBefore(Node, Key) | O(n)    | O(1)    |           |
+| AddAfter(Node, Key)  | O(1)    |         |           |
+
+## Summary
+- Contant time to insert at or remove fron the front  
+If you handle first element, Linked List is better than array, because in case of array If we remove first element, we should change all element's position
+- With tail and Doubly Linked, constant time to insert at or remove from the back
+- **O(n)** time to find arbitrary element
+- List elements need not be contiguous  
+Separated allocated locations of memory
+- With Doubly Linked List, constatnt time to insert between nodes or remove a node
 # Array in Java
 
 # Practice
