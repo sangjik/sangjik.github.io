@@ -37,6 +37,7 @@ Below is what I learned from following lecture
   -> O(1)
 - PushBack(Key) *with tail*
   -> O(1)
+  
 ```
 node <- new node
 node.key <- key; node.next = nil
@@ -49,8 +50,10 @@ else:
     node.prev <- tail
     tail <- node
 ```
+
 - AddBefore(node, key) *with tail*
   -> O(1)
+  
 ```
 node2 <- new node
 node2.key <- key
@@ -63,6 +66,7 @@ if node2.prev != nil:
 if head = node:
     head <- node2
 ```
+
 ## Single Linked List vs Double Linked List
 |                      | no tail | no tail | with tail |
 |----------------------|---------|---------|-----------|
