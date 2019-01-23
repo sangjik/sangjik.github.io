@@ -26,9 +26,8 @@ First In First Out
 -> define read and write index
 
 ## Summary
-- Each stack operation is O(1): Push, Pop, Top, Empty
-
-## Summary
+- Queues can be implemented with either a linked list (with tail pointer) or an array
+- Each queue operation is O(1): Enqueue, Dequeue, Empty(Array have limited index)
 
 # Queues in Java
 
