@@ -25,7 +25,57 @@ if tree = nil:
 return 1 + Size(tree.left) + Size(tree.right)
 ```
 
+### Depth First
+InOrderTraversal(tree)
+```
+if tree = nil:
+  return
+InOrderTraversal(tree.left)
+Print(tree.key)
+InOrderTraversal(tree.right)
+```
+
+PreOrderTraversal(tree)
+```
+if tree = nil:
+  return
+Print(tree.key)
+PreOrderTraversal(tree.left)
+PreOrderTraversal(tree.right)
+```
+
+PostOrderTraversal(tree)
+```
+if tree = nil:
+  return
+PostOrderTraversal(tree.left)
+PostOrderTraversal(tree.right)
+Print(tree.key)
+```
+
+### Breath first
+LevelTraversal(tree)
+```
+if tree = nil:
+  return
+Queue q
+q.Enqueue(tree)
+while not q.Empty():
+  node <- q.Dequeue()
+  Print(node)
+  if node.left != nil:
+    q.Enqueue(node.left)
+  if node.right != nil:
+    q.Enqueue(node.right)
+
+```
+
 ## Summary
+- Trees are used for lots of different things
+- Trees have a key and children
+- Tree walks: DFS and BFS
+- When working with a tree, recursive algorithms are common
+- In Computer Science, trees grow down
 
 # Trees in Java
 
