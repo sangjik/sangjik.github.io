@@ -27,7 +27,7 @@ Below is what I learned from following lecture
 - **PopBack** *with tail*  
   It will takes time although we have tail. because after removing last element and change tail. we don't have any pointer. so we should access from first element to last one.  
   -> O(n)
-    
+
 ## Concept of Doubly Linked List
 **Doubly Linked List** is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains three fields: two link fields (references to the previous and to the next node in the sequence of nodes) and one data field.
 
@@ -37,7 +37,7 @@ Below is what I learned from following lecture
   -> O(1)
 - PushBack(Key) *with tail*
   -> O(1)
-  
+
 ```
 node <- new node
 node.key <- key; node.next = nil
@@ -53,7 +53,7 @@ else:
 
 - AddBefore(node, key) *with tail*
   -> O(1)
-  
+
 ```
 node2 <- new node
 node2.key <- key
@@ -67,22 +67,6 @@ if head = node:
     head <- node2
 ```
 
-## Single Linked List vs Double Linked List
-|                      | no tail | no tail | with tail |
-|----------------------|---------|---------|-----------|
-|                      | Single  | Double  |           |
-| PushFront(Key)       | O(1)    | -       |           |
-| TopFront()           | O(1)    | -       |           |
-| PopFront()           | O(1)    | -       |           |
-| PushBack(Key)        | O(n)    | -       | O(1)      |
-| TopBack()            | O(n)    | -       | O(1)      |
-| PopBack()            | O(n)    | O(1)    |           |
-| Find(Key)            | O(n)    | -       |           |
-| Erase(Key)           | O(n)    | -       |           |
-| Empty()              | O(1)    | -       |           |
-| AddBefore(Node, Key) | O(n)    | O(1)    |           |
-| AddAfter(Node, Key)  | O(1)    |         |           |
-
 ## Summary
 - Contant time to insert at or remove fron the front  
 If you handle first element, Linked List is better than array, because in case of array If we remove first element, we should change all element's position
@@ -91,11 +75,6 @@ If you handle first element, Linked List is better than array, because in case o
 - List elements need not be contiguous  
 Separated allocated locations of memory
 - With Doubly Linked List, constatnt time to insert between nodes or remove a node
-
-# Linked List in Java
-
-# Practice
-
 
 [lecture]: https://www.coursera.org/lecture/data-structures/arrays-OsBSF
 [ll]: https://cdn-images-1.medium.com/max/1600/1*5uUzPIemQ64oWNCSVfHsgQ.png

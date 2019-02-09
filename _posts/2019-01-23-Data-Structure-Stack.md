@@ -40,9 +40,5 @@ return stack.Empty()
 - Each stack operation is O(1): Push, Pop, Top, Empty
 - Stacks are occasionally known as LIFO queues
 
-# Stack in Java
-
-# Practice
-
 [LIFO]: https://images.agoramedia.com/everydayhealth/gcms/The-Health-Benefits-of-Water-722x406.jpg?width=722
 [lecture]: https://www.coursera.org/lecture/data-structures/arrays-OsBSF

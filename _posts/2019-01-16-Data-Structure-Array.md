@@ -21,20 +21,12 @@ A) (2,1,1)
 -> In column-major ordering, the first index changes most rapidly
 
 ## Times for Common operations
-|           | Add  | Remove |
-|---|---|---|
-| Beginning | O(n) | O(n)   |
-| End       | O(1) | O(1)   |
-| Middle    | O(n) | O(n)   |
+only Add or Remove at the end is O(1)
+Add or Remove in the beginning or middle is O(n)
 
 ## Summary
 - Constant time access to any elements
 - Constant time to add/remove at the End
 - Linear time to add/remove at an arbitrary location
-
-# Array in Java
-
-# Practice
-
 
 [lecture]: https://www.coursera.org/lecture/data-structures/arrays-OsBSF

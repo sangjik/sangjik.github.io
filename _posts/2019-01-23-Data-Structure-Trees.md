@@ -77,8 +77,4 @@ while not q.Empty():
 - When working with a tree, recursive algorithms are common
 - In Computer Science, trees grow down
 
-# Trees in Java
-
-# Practice
-
 [lecture]: https://www.coursera.org/lecture/data-structures/arrays-OsBSF

@@ -29,9 +29,5 @@ First In First Out
 - Queues can be implemented with either a linked list (with tail pointer) or an array
 - Each queue operation is O(1): Enqueue, Dequeue, Empty(Array have limited index)
 
-# Queues in Java
-
-# Practice
-
 [FIFO]: http://image14.hanatour.com/uploads/2013/03/0321.jpg
 [lecture]: https://www.coursera.org/lecture/data-structures/arrays-OsBSF
